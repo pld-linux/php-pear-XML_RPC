@@ -2,8 +2,8 @@
 %define         _class          XML
 %define         _subclass       RPC
 %define		_pearname	%{_class}_%{_subclass}
-Summary:	%{_class}_%{_subclass} - implementation of the XML-RPC protocol
-Summary(pl):	%{_class}_%{_subclass} - implementacja protoko³u XML-RPC
+Summary:	%{_pearname} - implementation of the XML-RPC protocol
+Summary(pl):	%{_pearname} - implementacja protoko³u XML-RPC
 Name:		php-pear-%{_pearname}
 Version:	1.0.3
 Release:	1
