@@ -1,7 +1,8 @@
 %include	/usr/lib/rpm/macros.php
-%define         _class          XML
-%define         _subclass       RPC
+%define		_class		XML
+%define		_subclass	RPC
 %define		_pearname	%{_class}_%{_subclass}
+
 Summary:	%{_pearname} - implementation of the XML-RPC protocol
 Summary(pl):	%{_pearname} - implementacja protoko³u XML-RPC
 Name:		php-pear-%{_pearname}
