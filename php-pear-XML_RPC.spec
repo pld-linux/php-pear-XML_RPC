@@ -5,7 +5,7 @@
 Summary:	%{_pearname} - implementation of the XML-RPC protocol
 Summary(pl):	%{_pearname} - implementacja protoko³u XML-RPC
 Name:		php-pear-%{_pearname}
-Version:	1.0.3
+Version:	1.0.4
 Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
@@ -27,6 +27,7 @@ wsparcie dla transportu HTTP, proxy oraz autentyfikacji.
 
 %prep
 %setup -q -c
+cd %{_pearname}-%{version}
 %patch0 -p1
 
 %install
