@@ -12,7 +12,7 @@ Group:		Development/Languages/PHP
 # Source0-md5:	33cefbc8a78ae111ea122a5581a6167f
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 Patch0:		%{name}-cosmetic.patch
-URL:		http://pear.php.net/package/%{_pearname}/
+URL:		http://pear.php.net/package/XML_RPC/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
 Requires:	php-pear
 BuildArch:	noarch
