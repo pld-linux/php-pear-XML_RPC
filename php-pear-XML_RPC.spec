@@ -1,6 +1,7 @@
 %include	/usr/lib/rpm/macros.php
 %define		_class		XML
 %define		_subclass	RPC
+%define		_status		stable
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - implementation of the XML-RPC protocol
@@ -22,9 +23,13 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This is a PEAR-ified version of Useful inc's XML-RPC for PHP. It has
 support for HTTP transport, proxies and authentication.
 
+This class has in PEAR status: %{_status}.
+
 %description -l pl
 Jest to zPEARowana wersja u¿ytecznego include-a dla PHP. Posiada
 wsparcie dla transportu HTTP, proxy oraz autentyfikacji.
+
+Ta klasa ma w PEAR status: %{_status}.
 
 %prep
 %setup -q -c
