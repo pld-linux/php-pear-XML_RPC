@@ -1,0 +1,11 @@
+--- ./RPC.php.org	Wed Oct  2 23:10:19 2002
++++ ./RPC.php	Thu Oct 10 18:46:47 2002
+@@ -1061,7 +1061,7 @@
+    global $XML_RPC_Struct;
+ 
+    $type = gettype($php_val);
+-   $XML_RPC_val = new XML_RPC_value;
++   $XML_RPC_val = new XML_RPC_Value;
+ 
+    switch($type) {
+       case "array":
