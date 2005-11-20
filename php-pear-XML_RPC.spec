@@ -3,12 +3,11 @@
 %define		_subclass	RPC
 %define		_status		stable
 %define		_pearname	%{_class}_%{_subclass}
-
 Summary:	%{_pearname} - implementation of the XML-RPC protocol
 Summary(pl):	%{_pearname} - implementacja protoko³u XML-RPC
 Name:		php-pear-%{_pearname}
 Version:	1.4.4
-Release:	1
+Release:	2
 Epoch:		0
 License:	PHP 2.02
 Group:		Development/Languages/PHP
