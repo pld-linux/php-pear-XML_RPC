@@ -6,13 +6,13 @@
 Summary:	%{_pearname} - implementation of the XML-RPC protocol
 Summary(pl):	%{_pearname} - implementacja protoko³u XML-RPC
 Name:		php-pear-%{_pearname}
-Version:	1.4.8
+Version:	1.5.0
 Release:	1
 Epoch:		0
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	c2e94575bd14a4425de9e20976c65d43
+# Source0-md5:	9f9205d8c8b3ca07a50c5d332c6fb722
 URL:		http://pear.php.net/package/XML_RPC/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
