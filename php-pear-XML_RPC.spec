@@ -4,7 +4,7 @@
 %define		_status		stable
 %define		_pearname	%{_class}_%{_subclass}
 Summary:	%{_pearname} - implementation of the XML-RPC protocol
-Summary(pl):	%{_pearname} - implementacja protoko≥u XML-RPC
+Summary(pl.UTF-8):   %{_pearname} - implementacja protoko≈Çu XML-RPC
 Name:		php-pear-%{_pearname}
 Version:	1.5.1
 Release:	2
@@ -28,15 +28,15 @@ support for HTTP transport, proxies and authentication.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Jest to zPEARowana wersja uøytecznego include-a dla PHP. Posiada
+%description -l pl.UTF-8
+Jest to zPEARowana wersja u≈ºytecznego include-a dla PHP. Posiada
 wsparcie dla transportu HTTP, proxy oraz autentyfikacji.
 
 Ta klasa ma w PEAR status: %{_status}.
 
 %package tests
 Summary:	Tests for PEAR::%{_pearname}
-Summary(pl):	Testy dla PEAR::%{_pearname}
+Summary(pl.UTF-8):   Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
 Requires:	%{name} = %{epoch}:%{version}-%{release}
 AutoReq:	no
@@ -45,7 +45,7 @@ AutoProv:	no
 %description tests
 Tests for PEAR::%{_pearname}.
 
-%description tests -l pl
+%description tests -l pl.UTF-8
 Testy dla PEAR::%{_pearname}.
 
 %prep
